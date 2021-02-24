@@ -118,7 +118,7 @@ function Cart() {
                     <tbody>
                 {items.map((product, index) => 
                     <tr key={index}>
-                        <td className="w-25 align-middle"><img className="img-fluid img-thumbnail" src={`./public/images/products/${product.image}`} alt={product.name} /></td>
+                        <td className="w-25 align-middle"><img className="img-fluid img-thumbnail" src={`../public/images/products/${product.image}`} alt={product.name} /></td>
                         <td className="align-middle"><h5>{product.name}</h5><h6>({product.color} {product.size})</h6></td>
                         {   
                             product.amount && product.amount === product.details[product.size][product.color].stock
