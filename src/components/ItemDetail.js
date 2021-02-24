@@ -89,7 +89,7 @@ const ItemDetail = ( { productoSeleccionado } ) => {
       <div className="row no-gutters">
         <div className="col-md-6">
           {productoSeleccionado && productoSeleccionado.image
-            ? <img src={`../public/images/products/${image}`} className="card-img" alt="..." />
+            ? <img src={`../../public/images/products/${image}`} className="card-img" alt="..." />
             : ''
           }
         </div>
