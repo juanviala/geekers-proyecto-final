@@ -1,5 +1,5 @@
 ﻿# Bienvenido a Geekers!
-Somos una tienda virtual de remeras nerd de primera calidad.
+Somos una tienda virtual de remeras nerd de primera calidad. Podés ver el proyecto levantado en https://geekers-reactjs-coderhouse.web.app/
 
 ## Estructura de Productos en DB (Firebase)
 Es importante mantener la estructura de la carga de productos para un correcto funcionamiento. 
